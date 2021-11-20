@@ -1,0 +1,10 @@
+<div class="personal-card">
+    <h3>Personal Info</h3>
+
+    <h4>First Name - {{user.firstName}}</h4>
+    <h4>Middle Name - {{user.middleName}}</h4>
+    <h4>Last Name - {{user.lastName}}</h4>
+    <h4>Birth - {{user.birth.toLocaleDateString()}}</h4>
+    <h4>Proffession - {{user.profession}}</h4>
+    <passport-info [passport]="user.passport"></passport-info>
+</div>
